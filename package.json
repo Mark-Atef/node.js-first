@@ -1,0 +1,20 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "first node project",
+  "homepage": "https://github.com/Mark-Atef/node.js-first#readme",
+  "bugs": {
+    "url": "https://github.com/Mark-Atef/node.js-first/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mark-Atef/node.js-first.git"
+  },
+  "license": "ISC",
+  "author": "Mark Yacoub",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
