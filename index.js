@@ -8,9 +8,6 @@ const users = [
     { id: 5, name: 'Eve', age: 40 }
 ];
 
-server.listen(3000, () => {
-    console.log('Server is running on http://localhost:3000');
-});
 
 const server = http.createServer((req, res) => {
 
@@ -32,3 +29,6 @@ const server = http.createServer((req, res) => {
 
 });
 
+server.listen(3000, () => {
+    console.log('Server is running on http://localhost:3000');
+});
